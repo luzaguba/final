@@ -5,4 +5,39 @@
 body{
   margin: 0;
   background: #fffced;
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
+.name{
+  /* background-color: pink; */
+  max-width: 800px;
+  transform: rotate(-4deg);
+}
+
+.one{
+  /* background-color: green; */
+  display: flex;
+  position: absolute;
+  right: 100px;
+}
+
+.two{
+  /* background-color: pink; */
+  display: flex;
+  position: relative;
+  top: 1000px;
+}
+
+.three{
+  /* background-color: red; */
+  display: flex;
+  position: static;
+  right: 300px;
+  left: 700px;
+}
+
+.four{
+  position: absolute;
+  top: 2000px;
+  right: 100px;
 }
