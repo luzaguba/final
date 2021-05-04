@@ -4,40 +4,60 @@
 
 body{
   margin: 0;
-  background: #fffced;
+  background-image: url("store.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 200vh;
   font-family: 'Kosugi Maru', sans-serif;
 }
 
+
+.item{
+  position: flex;
+}
 .name{
   /* background-color: pink; */
   max-width: 800px;
   transform: rotate(-4deg);
 }
 
-.one{
-  /* background-color: green; */
-  display: flex;
-  position: absolute;
-  right: 100px;
-}
-
-.two{
+.made{
   /* background-color: pink; */
-  display: flex;
-  position: relative;
-  top: 1000px;
+  max-width: 800px;
+  transform: rotate(-4deg);
 }
 
-.three{
-  /* background-color: red; */
-  display: flex;
-  position: static;
-  right: 300px;
-  left: 700px;
+.hear{
+  /* background-color: pink; */
+  max-width: 800px;
+  transform: rotate(-4deg);
 }
 
-.four{
-  position: absolute;
-  top: 2000px;
-  right: 100px;
+.feed{
+  /* background-color: pink; */
+  max-width: 800px;
+  transform: rotate(-4deg);
+}
+
+.bff{
+  /* background-color: pink; */
+  max-width: 800px;
+  transform: rotate(-4deg);
+}
+
+.munch{
+  /* background-color: pink; */
+  max-width: 800px;
+  transform: rotate(-4deg);
+}
+.theo{
+  /* background-color: pink; */
+  max-width: 800px;
+  transform: rotate(-4deg);
+}
+
+.brain{
+  /* background-color: pink; */
+  max-width: 800px;
+  transform: rotate(-4deg);
 }
