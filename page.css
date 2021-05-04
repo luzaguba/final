@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background: #fffced;
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
+.name{
+  /* background-color: pink; */
+  max-width: 800px;
+  transform: rotate(-4deg);
+}
+
+.us{
+  display: flex;
+  max-width: 900px;
+}
+
+.line-1{
+    position: relative;
+    top: 50%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+
+.one{
+  /* background-color: green; */
+  display: flex;
+  position: absolute;
+  right: 100px;
+}
+
+.two{
+  /* background-color: pink; */
+  display: flex;
+  position: relative;
+  top: 1000px;
+}
+
+.three{
+  /* background-color: red; */
+  display: flex;
+  position: static;
+  right: 300px;
+  left: 700px;
+}
+
+.four{
+  position: absolute;
+  top: 2000px;
+  right: 100px;
+}
+
+.receipts{
+  max-width: 600px;
+  position: flexx;
+  left: 900px;
+  transform: rotate(40deg);
+}
+
+.lola{
+  position: relative;
+  left: 200px;
+  top: 400px;
+  max-width: 700px;
+}
+
+.theo{
+  display: flex;
+  position: absolute;
+  max-width: 900px;
+  left: 1200px;
+  top: 1500px;
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
