@@ -11,6 +11,16 @@ body{
   font-family: 'Kosugi Maru', sans-serif;
 }
 
+.about{
+  display: flex;
+
+  max-width: 300px;
+  /* justify-content: space-between;
+  background: white;
+  width: 80%; */
+  /* height: 100vh; */
+}
+
 .item{
   position: flex;
 }
@@ -26,6 +36,12 @@ body{
   transform: rotate(-4deg);
 }
 
+.title{
+  /* background-color: pink; */
+  max-width: 800px;
+  transform: rotate(-4deg);
+}
+
 .hear{
   /* background-color: pink; */
   max-width: 800px;
@@ -35,6 +51,11 @@ body{
 .feed{
   /* background-color: pink; */
   max-width: 800px;
+  transform: rotate(-4deg);
+}
+.contact{
+  /* background-color: pink; */
+  max-width: 700px;
   transform: rotate(-4deg);
 }
 
