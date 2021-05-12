@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-color: #94bf73;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  text-align: center;
+  font-size: 30px;
+  padding: 50px;
+  top: 400px;
+  position: absolute;
+  transform: rotate(-4deg);
+
+}
+.about{
+  display: flex;
+}
+.me{
+  display: flex;
+  max-width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
